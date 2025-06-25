@@ -18,8 +18,8 @@ import os
 # Load trained model and label encoder
 @st.cache_resource
 def load_model():
-    model = joblib.load('/content/drive/MyDrive/emotion_classification/trained_model.pkl')
-    label_encoder = joblib.load('/content/drive/MyDrive/emotion_classification/label_encoder.pkl')
+   model = joblib.load("trained_model.pkl")
+   label_encoder = joblib.load("label_encoder.pkl")
     return model, label_encoder
 
 model, label_encoder = load_model()
