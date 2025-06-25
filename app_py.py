@@ -17,11 +17,13 @@ import os
 
 # Load trained model and label encoder
 @st.cache_resource
-def load_model():
-   model = joblib.load("trained_model.pkl")
-   label_encoder = joblib.load("label_encoder.pkl")
-    return model, label_encoder
-
+def load_model():    
+    model = joblib.load("trained_model.pkl")
+    label_encoder = joblib.load("label_encoder.pkl")
+      return model, label_encoder
+    
+    
+       
 model, label_encoder = load_model()
 
 # Feature extraction function
