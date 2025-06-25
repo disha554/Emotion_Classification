@@ -2,4 +2,5 @@ streamlit
 librosa
 joblib
 scikit-learn
+xgboost
 numpy
