@@ -4,5 +4,5 @@ joblib
 scikit-learn
 xgboost
 numpy
-tensorflow==2.12.0
+tensorflow
 soundfile
