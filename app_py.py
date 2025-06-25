@@ -20,7 +20,7 @@ import os
 def load_model():    
     model = joblib.load("trained_model.pkl")
     label_encoder = joblib.load("label_encoder.pkl")
-      return model, label_encoder
+    return model, label_encoder
     
     
        
