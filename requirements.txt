@@ -4,5 +4,4 @@ joblib
 scikit-learn
 xgboost
 numpy
-tensorflow
-keras
+tensorflow==2.12.0
